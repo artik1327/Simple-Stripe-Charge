@@ -1,14 +1,14 @@
 {
-  "id": "ch_1E7TC8AkrJPAV3LkE9jrn6Sr",
+  "id": "ch_1E7TpOAkrJPAV3Lk5Be5e7eB",
   "object": "charge",
   "amount": 999,
   "amount_refunded": 0,
   "application": null,
   "application_fee": null,
   "application_fee_amount": null,
-  "balance_transaction": "txn_1E7TC8AkrJPAV3LklOCiIG4K",
+  "balance_transaction": "txn_1E7TpOAkrJPAV3LkBc55yfra",
   "captured": true,
-  "created": 1551038608,
+  "created": 1551041042,
   "currency": "usd",
   "customer": null,
   "description": "Test_Charge",
@@ -28,7 +28,7 @@
     "network_status": "approved_by_network",
     "reason": null,
     "risk_level": "normal",
-    "risk_score": 33,
+    "risk_score": 18,
     "seller_message": "Payment complete.",
     "type": "authorized"
   },
@@ -36,7 +36,7 @@
   "payment_intent": null,
   "receipt_email": null,
   "receipt_number": null,
-  "receipt_url": "https://pay.stripe.com/receipts/acct_1Dw9RrAkrJPAV3Lk/ch_1E7TC8AkrJPAV3LkE9jrn6Sr/rcpt_EaeVdZaTga6KALloj2WUEigOrehFHEH",
+  "receipt_url": "https://pay.stripe.com/receipts/acct_1Dw9RrAkrJPAV3Lk/ch_1E7TpOAkrJPAV3Lk5Be5e7eB/rcpt_Eaf9lrjSGbr8qXl5hE49tMZka8sjVQG",
   "refunded": false,
   "refunds": {
     "object": "list",
@@ -45,12 +45,12 @@
     ],
     "has_more": false,
     "total_count": 0,
-    "url": "/v1/charges/ch_1E7TC8AkrJPAV3LkE9jrn6Sr/refunds"
+    "url": "/v1/charges/ch_1E7TpOAkrJPAV3Lk5Be5e7eB/refunds"
   },
   "review": null,
   "shipping": null,
   "source": {
-    "id": "card_1E7TC8AkrJPAV3LkbTiTgfBj",
+    "id": "card_1E7TpOAkrJPAV3LkcvrkHMZg",
     "object": "card",
     "address_city": null,
     "address_country": null,

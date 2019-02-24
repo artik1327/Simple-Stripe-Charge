@@ -16,4 +16,12 @@ class Controller
     {
         require_once '../app/views/'. $view . '.php';
     }
+
+    /**
+     * @param string $url
+     */
+    public function redirect(string $url)
+    {
+        header('Location: '. $url);
+    }
 }

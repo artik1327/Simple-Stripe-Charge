@@ -25,22 +25,26 @@ class Payment extends Controller
      */
     public function charge()
     {
-        // Created Stripe payment class
-        $Payment = new StripePayment();
+        if (isset($_POST['stripeToken'])) {
+            // Created Stripe payment class
+            $Payment = new StripePayment();
 
-        // Sets needed params for charge
-        $Payment->setToken('sk_test_slezupO7CjZyXfjAFmEY8L0H');
-        $Payment->setAmount('999');
-        $Payment->setCurrency('usd');
-        $Payment->setDescription('Test_Charge');
-        $Payment->setSource('tok_visa');
+            // Sets needed params for charge
+            $Payment->setToken('sk_test_slezupO7CjZyXfjAFmEY8L0H');
+            $Payment->setAmount('999');
+            $Payment->setCurrency('usd');
+            $Payment->setDescription('Test_Charge');
+            $Payment->setSource('tok_visa');
 
-        // Charging payment
-        $Payment->chargePayment();
+            // Charging payment
+            $Payment->chargePayment();
 
-        $this->renderView('payment/index', [
-            'message' => $Payment->getMessage()
-        ]);
+            $this->renderView('payment/index', [
+                'message' => $Payment->getMessage()
+            ]);
+        }
+
+        $this->redirect('/index');
 
     }
 
