@@ -13,7 +13,6 @@
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
 
-
 ## Routes
 
     1. Example "WhaMedia.com" - Default Route with Stripe Form
