@@ -1,8 +1,8 @@
-#Simple-Stripe-Charge
+# Simple-Stripe-Charge
 
-###This is a simple project
+### This is a simple project
 
-##Setup
+## Setup
 
     <VirtualHost *:80>
         ServerAdmin webmaster@localhost
